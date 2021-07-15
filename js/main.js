@@ -19,15 +19,15 @@ function imc(){
         }
 
         if(valorIMC >= 18.5){
-            clasificacao = "você esta com um peso ideal, continuei cuidando da sua alimentação."
+            clasificacao = " com um peso ideal, continuei cuidando da sua alimentação."
         }
 
         if (valorIMC >= 24.9){
-            clasificacao = "você esta com sobrepeso, tente fazer atividades físicas, andar de bike, skate... etc "
+            clasificacao = " com sobrepeso, tente fazer atividades físicas, andar de bike, skate... etc "
         }
         
         if (valorIMC >= 30.0){
-            clasificacao ="você é considerado obeso, procure um medico e cuide da sua saúde."
+            clasificacao =" obeso, procure um medico e cuide da sua saúde."
         }
 
         resultado.textContent = `${nome} seu IMC é ${valorIMC} e você esta ${clasificacao}`;
